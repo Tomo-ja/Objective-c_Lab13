@@ -9,6 +9,9 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *inputField;
+- (IBAction)onChangeInputValue:(UITextField *)sender;
+
 
 @end
 
